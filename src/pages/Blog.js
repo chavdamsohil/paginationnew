@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Posts from "../Components/Posts";
-import Pagination from "../Components/Pagination";
+import Posts from "./Posts";
+import Pagination from "./Pagination";
 
-const blog = ({ mydata }) => {
+const Blog = ({ mydata }) => {
   const [posts, setPost] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
@@ -46,4 +46,4 @@ const blog = ({ mydata }) => {
   );
 };
 
-export default blog;
+export default Blog;

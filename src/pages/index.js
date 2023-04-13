@@ -6,8 +6,8 @@ const Index = () => {
   return (
     <>
       <h1>its home page</h1>
-      <Link href={"/blog"}>
-        <li>Blogs</li>
+      <Link href={"/Blog"}>
+        <li>Click here see Blogs</li>
       </Link>
     </>
   );
