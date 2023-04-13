@@ -7,7 +7,7 @@ const Blog = ({ mydata }) => {
   const [posts, setPost] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage, setPostPerPage] = useState(5);
+  const [postsPerPage, setPostPerPage] = useState(10);
 
   const pageChange = (pageno) => {
     setCurrentPage(pageno);
