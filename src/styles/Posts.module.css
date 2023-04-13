@@ -1,0 +1,9 @@
+.lists {
+  list-style: none;
+  padding: 10px;
+  color: black;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
