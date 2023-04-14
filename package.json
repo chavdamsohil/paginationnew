@@ -1,8 +1,12 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://chavdamsohil.github.io/paginationnew",
   "private": true,
+  "export": "next export",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -20,5 +24,8 @@
     "react-dom": "18.2.0",
     "typescript": "5.0.4",
     "vercel": "^28.18.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
